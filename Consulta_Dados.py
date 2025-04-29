@@ -4,7 +4,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import datetime, timedelta
 import matplotlib
-matplotlib.use('Agg')  # Usa um backend que não precisa de interface gráfica
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2Tk
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
